@@ -3,4 +3,6 @@
 }
 .home{
     flex: 10;
+    padding: 100px;
+    margin-top: 40px;
 }

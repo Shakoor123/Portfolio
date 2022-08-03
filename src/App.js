@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects/Projects';
 import Sidebar from './components/Sidebar/Sidebar';
 import Welcome from './components/Welcome/Welcome';
 
@@ -10,9 +11,10 @@ function App() {
      <div className='homeContainer'>
 
      <Sidebar/>
-    <span className='home'>
+    <div className='home'>
       <Welcome/>
-    </span>
+      <Projects/> 
+    </div>
      </div>
     </div>
   );
