@@ -1,0 +1,30 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.skillBottom{
+    display: flex;
+    padding: 15px;
+}
+.outerSkill{
+    width: 100%;
+    background-color: rgb(231, 227, 227);
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.innerSkill{
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+.persentage{
+    font-size: 12px;
+    margin-left: 20px;
+}

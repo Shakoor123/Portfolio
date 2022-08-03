@@ -1,16 +1,17 @@
-.projects{
+.skills{
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-left: 130px;
 }
-.projectTitle{
+.skillsTitle{
     font-size: 32px;
     font-weight: 600;
 }
-.cardContainer{
+.divSkillContainer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

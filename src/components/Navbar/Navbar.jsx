@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="nightMode">
          
           
-          {darkMode ?<DarkModeTwoToneIcon onClick={darkCliked} />: <LightModeOutlinedIcon  onClick={whiteCliked}/> }
+          {darkMode?<DarkModeTwoToneIcon onClick={darkCliked} />: <LightModeOutlinedIcon  onClick={whiteCliked}/> }
           </div>
           <div className="buttons">
           
