@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 1;
+    height: 87vh;
+    display: flex;
+    width: 100%;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line{
+    height: 70px;
+    border-right: 1px solid black;
+    margin:10px;
+}
+.github{
+    transform: scale(1.8);
+    cursor: pointer;
+}
+.linkedIn{
+    transform: scale(1.8);
+    color: #0A66C2;
+    cursor: pointer;
+}
+.instagram{
+    transform: scale(1.8);
+    color:#C13584;
+    cursor: pointer;
+}
+.twitter{
+    transform: scale(1.8);
+    color:#1DA1F2;
+    cursor: pointer;
+}
+.github:hover{
+    margin-left: 10px;
+}
+.linkedIn:hover{
+    margin-left: 10px;
+}
+.instagram:hover{
+    margin-left: 10px;
+}
+.twitter:hover{
+    margin-left: 10px;
+}

@@ -1,0 +1,75 @@
+.navbar{
+    display: flex;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    background-color: #2834fa;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.right{
+    display: flex;
+    
+}
+.buttons{
+    padding: 10px;
+}
+.button{
+    margin-right: 20px;
+    border: none;
+    background-color: #2834fa;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom:.5px solid rgb(251, 248, 248);
+}
+.button:hover{
+    color: lightblue;
+    border-radius: 5px;
+    border-bottom: none;
+}
+.resume{
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #2834fa;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: 3px 6px 12px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 6px 12px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 12px -1px rgba(0,0,0,0.75);
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 30px;
+    box-shadow: 3px 6px 12px -1px rgba(255, 255, 255, 0.75);
+-webkit-box-shadow: 3px 6px 12px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 12px -1px rgba(251, 245, 245, 0.75);
+}
+.resume:hover{
+    background-color:white;
+    color: black;
+    
+}
+.nightMode{
+    margin-right: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+.lastName{
+    background-color: white;
+    color: #2834fa;
+    
+}
