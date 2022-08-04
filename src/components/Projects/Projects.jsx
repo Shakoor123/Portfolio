@@ -5,11 +5,11 @@ import {projects} from '../../data'
 const Projects = () => {
   
   return (
-    <div className='projects'>
+    <div className='projects' id="projects">
         <h1 className="projectTitle" >Projects </h1>
     <div className="cardContainer">
     {projects.map(project=>(
-      <OneCard project={project} />
+      <OneCard project={project}  key={project.id}/>
       ))}
     
 

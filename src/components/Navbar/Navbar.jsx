@@ -1,17 +1,18 @@
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import DarkModeTwoToneIcon from '@mui/icons-material/DarkModeTwoTone';
 import "./Navbar.css";
-import { useState } from "react";
-
+import { useState,useContext } from "react";
+import {AuthContext} from '../../Context/Context'
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false)
-  const whiteCliked=()=>{
-    setDarkMode(true)
-  }
-  const darkCliked=()=>{
-    setDarkMode(false)
-  }
+  const {dark,setDark}=useContext(AuthContext)
 
+  const changeDark=()=>{
+    if(dark){
+      setDark(false)
+    }else{
+      setDark(true)
+    }
+  }
   return (
     <div className="navbar">
       <div className="container">
@@ -22,14 +23,14 @@ const Navbar = () => {
         <div className="nightMode">
          
           
-          {darkMode?<DarkModeTwoToneIcon onClick={darkCliked} />: <LightModeOutlinedIcon  onClick={whiteCliked}/> }
+          {dark?<LightModeOutlinedIcon onClick={changeDark}/>:<DarkModeTwoToneIcon onClick={changeDark} /> }
           </div>
           <div className="buttons">
           
-            <button className="button">About</button>
-            <button className="button">Projects</button>
-            <button className="button">Contact</button>
-            <button className="resume">Resume</button>
+            <a href='#' className="button">About</a>
+            <a href='#projects' className="button">Projects</a>
+            <a href='#contact' className="button">Contact</a>
+            <a href='https://drive.google.com/file/d/1kqXP2fGav5HDApcjViLby45PWb7mpmVu/view?usp=sharing' className="resume">Resume</a>
           </div>
         </div>
       </div>

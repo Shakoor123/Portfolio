@@ -2,7 +2,9 @@ import './OneCard.css'
 
 const OneCard = ({project}) => {
   return (
-    <div className='OneCard'>
+    <div className='OneCard' onClick={()=>{
+      window.location.href = `${project.link}`;
+    }}>
       <div className="top">
         <span className="cardTitle">{project.title}</span>
       </div>

@@ -40,15 +40,13 @@
     color:#1DA1F2;
     cursor: pointer;
 }
-.github:hover{
-    margin-left: 10px;
+ .github:hover{
+    transform: scale(2.4);
+
 }
 .linkedIn:hover{
-    margin-left: 10px;
-}
+    transform: scale(2.4);}
 .instagram:hover{
-    margin-left: 10px;
-}
+    transform: scale(2.4);}
 .twitter:hover{
-    margin-left: 10px;
-}
+    transform: scale(2.4);} 

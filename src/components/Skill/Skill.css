@@ -7,24 +7,31 @@
 .skillBottom{
     display: flex;
     padding: 15px;
+    margin-left: 40px;
 }
 .outerSkill{
     width: 100%;
     background-color: rgb(231, 227, 227);
-    height: 30px;
-    border-radius: 10px;
+    height: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 2px solid black;
 
 }
 .innerSkill{
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 
 
 }
 .persentage{
     font-size: 12px;
     margin-left: 20px;
+}
+.skillTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(84, 79, 79);
 }

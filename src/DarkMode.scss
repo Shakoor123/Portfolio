@@ -1,0 +1,81 @@
+.App.dark{
+        background-color: #111;
+        color: white;
+        .navbar{
+                background-color: #111;
+                .container{
+                        background-color: #111;
+                        color: white;
+                        .buttons{
+                                .button{
+                                        background-color: #111;
+                                }
+                                .resume{
+                                        background-color: #111;
+                                        border: 2px solid blue;
+                                }
+                                .resume:hover{
+                                        columns: blue;
+                                        background-color: #444;
+                                }
+                        }
+                        .left{
+                                .logo{
+
+                                        color: blue;
+                                        .lastName{
+                                                background-color:black;
+                                                margin-left: 4px;
+                                                color: white;
+                                        }
+                                }
+                        }
+                }
+
+        }
+        .homeContainer{
+                .sidebar{
+                        .icons{
+                                .line{
+                                        border-right: 1px solid rgb(27, 2, 247);
+
+                                }
+                        }
+                                
+        }
+                .home{
+                        background-color: #111;
+                        color: white;
+                        
+                        .welcome{
+                                .welcomeContainer{
+                                        .hi{
+                                                color: aliceblue;
+                                        }
+                                        .subTitle{
+                                                color: aliceblue;
+                                        }
+                                        .text{
+                                                color: blanchedalmond;
+                                        }
+                                }
+                        }
+                        .projects{
+                                .cardContainer{
+                                        .OneCard{
+                                                background-color: rgba(17, 15, 15, 0.807);
+                                                .top{
+                                                        .cardTitle{
+                                                                color: rgb(186, 183, 183);
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                        .skills{
+                                background-color: rgba(17, 15, 15, 0.807);
+                                border-radius: 5px;
+                        }
+                }
+        }
+}

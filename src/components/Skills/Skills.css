@@ -1,12 +1,19 @@
 .skills{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    margin-left: 130px;
+    margin-left: 120px;
+    margin-right: 30px;
+    padding: 60px;
+    box-shadow: -8px 8px 5px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -8px 8px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 8px 5px -5px rgba(0,0,0,0.75);
+    overflow-x: hidden;
 }
 .skillsTitle{
     font-size: 32px;
     font-weight: 600;
+    margin-left: 0;
 }
 .divSkillContainer{
     display: flex;
