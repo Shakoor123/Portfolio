@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e385724.css",
-    "main.js": "/static/js/main.1256f2ff.js",
+    "main.css": "/static/css/main.51926164.css",
+    "main.js": "/static/js/main.84da3e90.js",
     "static/media/emplacement.png": "/static/media/emplacement.84934f7462ca41499aca.png",
     "static/media/e-commers.jpg": "/static/media/e-commers.1f07397cfd717e4c3844.jpg",
     "static/media/portfolio.png": "/static/media/portfolio.c7e3097a9e89675e48bd.png",
     "static/media/social-media.jpg": "/static/media/social-media.b1ddbd5f2813bba82a23.jpg",
     "index.html": "/index.html",
-    "main.5e385724.css.map": "/static/css/main.5e385724.css.map",
-    "main.1256f2ff.js.map": "/static/js/main.1256f2ff.js.map"
+    "main.51926164.css.map": "/static/css/main.51926164.css.map",
+    "main.84da3e90.js.map": "/static/js/main.84da3e90.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e385724.css",
-    "static/js/main.1256f2ff.js"
+    "static/css/main.51926164.css",
+    "static/js/main.84da3e90.js"
   ]
 }
