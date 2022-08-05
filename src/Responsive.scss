@@ -1,7 +1,7 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .App {
     .navbar {
-      width: 600px;
+      width: 100%;
       .container {
         .buttons {
           .button {
@@ -28,7 +28,6 @@
     }
     .homeContainer {
       .sidebar {
-        margin-left: 20px;
         .icons {
           .line {
           }
@@ -54,7 +53,7 @@
               padding: 0;
               display: flex;
               font-size: 20px;
-              width: 380px;
+              width: 300px;
             }
           }
         }
@@ -119,6 +118,185 @@
             margin: 0;
             padding: 0;
             width: 350px;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .App {
+    display: flex;
+    position: relative;
+    .navbar {
+      width: 100%;
+      position: fixed;
+      overflow: hidden;
+      .container {
+        flex-direction: column;
+        .buttons {
+          .button {
+            display: none;
+          }
+          .resume {
+            font-size: 10px;
+          }
+          .resume:hover {
+          }
+        }
+        .left {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: start;
+          .logo {
+            padding: 0;
+            margin-left: 5px;
+            font-size: 10px;
+
+            .lastName {
+            }
+          }
+        }
+        .right {
+          display: flex;
+          justify-content: space-between;
+          .nightMode {
+            margin: 0;
+            padding: 20;
+
+            .darkOuter {
+              margin: 0;
+              padding: 0;
+              width: 15px;
+              height: 15px;
+              .moon {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .homeContainer {
+      width: 100%;
+      margin-top: 130px;
+      .sidebar {
+        padding: 20px;
+        top: 80px;
+        margin: 0;
+        display: flex;
+        .icons {
+          .line {
+          }
+        }
+      }
+      .home {
+        padding: 0;
+        margin-left: 70px;
+        width: 82%;
+        .welcome {
+          width: 100%;
+
+          padding: 0;
+          margin: 0;
+          height: 500px;
+          .welcomeContainer {
+            padding: 0;
+            margin: 0;
+            .hi {
+              font-size: 13px;
+            }
+            .name {
+              font-size: 22px;
+            }
+            .subTitle {
+            }
+            .text {
+              margin: 0;
+              padding: 0;
+              display: flex;
+              font-size: 16px;
+              width: 260px;
+            }
+          }
+        }
+        .projects {
+          margin: 0;
+          padding: 0;
+          .cardContainer {
+            margin: 0;
+            padding: 0;
+
+            display: flex;
+            flex-direction: column;
+            .OneCard {
+              margin: 0;
+              margin-top: 20px;
+              width: 220px;
+              height: 160px;
+              .top {
+                .cardTitle {
+                }
+              }
+              .bottom {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .image {
+                  margin: 0;
+                  padding: 0;
+                  width: 220px;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+        .skills {
+          margin: 0;
+          padding: 0;
+          width: 300px;
+          box-shadow: none;
+          .skill {
+            margin-left: 40px;
+            margin: 0;
+            padding: 0;
+
+            .skillBottom {
+              margin: 0;
+              padding: 0;
+            }
+          }
+        }
+        .footer {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: flex-start;
+          margin-top: 30px;
+
+          .footerTop {
+            padding: 0;
+            margin: 0;
+            width: 260px;
+            .outerRing {
+              width: 22px;
+              height: 22px;
+              .footerLogo {
+                transform: scale(0.8);
+                margin: 0;
+              }
+            }
+          }
+          .footerCenter {
+            width: 30%;
+          }
+          .footerBottom {
+            margin: 0;
+            padding: 0;
+            width: 250px;
             margin-top: 30px;
           }
         }

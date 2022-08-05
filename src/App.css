@@ -1,8 +1,10 @@
 .homeContainer {
   display: flex;
+  overflow-y: scroll;
+  width: 100%;
 }
 .home {
   flex: 10;
   padding: 100px;
-  margin-top: 40px;
+  width: 80%;
 }

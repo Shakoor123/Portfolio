@@ -1,6 +1,7 @@
 .welcome {
   width: 100%;
   height: 87vh;
+  overflow: hidden;
 }
 .welcomeContainer {
   margin-left: 140px;
