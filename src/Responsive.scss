@@ -1,142 +1,128 @@
-@media only screen and (max-width:600px) {
-    .App{
-        .navbar{
-            width: 100%;
-                .container{
-                        .buttons{
+@media only screen and (max-width: 600px) {
+  .App {
+    .navbar {
+      width: 600px;
+      .container {
+        .buttons {
+          .button {
+            display: none;
+          }
+          .resume {
+          }
+          .resume:hover {
+          }
+        }
+        .left {
+          margin: 0;
+          padding: 0;
+          .logo {
+            padding: 0;
+            margin-left: 15px;
+            font-size: 18px;
 
-                                .button{
-                                    display: none;
-                                }
-                                .resume{
-                                     
-                                }
-                                .resume:hover{
-
-                                }
-                        }
-                        .left{
-                            margin: 0;padding: 0;
-                                .logo{
-                                    padding: 0;
-                                    margin-left: 15px;
-                                    font-size: 18px;
-                                        
-                                        .lastName{
-                                               
-                                        }
-                                }
-                        }
+            .lastName {
+            }
+          }
+        }
+      }
+    }
+    .homeContainer {
+      .sidebar {
+        margin-left: 20px;
+        .icons {
+          .line {
+          }
+        }
+      }
+      .home {
+        .welcome {
+          padding: 0;
+          margin: 0;
+          height: 500px;
+          .welcomeContainer {
+            padding: 0;
+            margin: 0;
+            .hi {
+            }
+            .name {
+              font-size: 38px;
+            }
+            .subTitle {
+            }
+            .text {
+              margin: 0;
+              padding: 0;
+              display: flex;
+              font-size: 20px;
+              width: 380px;
+            }
+          }
+        }
+        .projects {
+          margin: 0;
+          padding: 0;
+          .cardContainer {
+            display: flex;
+            flex-direction: column;
+            .OneCard {
+              width: 300px;
+              height: 200px;
+              .top {
+                .cardTitle {
                 }
-
-        }
-        .homeContainer{
-                .sidebar{
-                    margin-left: 20px;
-                        .icons{
-                                .line{
-                                        
-
-                                }
-                        }
-                                
-        }
-                .home{
-                   
-                        
-                        .welcome{
-                            padding: 0;
-                            margin: 0;
-                            height: 500px;
-                                .welcomeContainer{
-                                    padding: 0;margin: 0;
-                                        .hi{
-                                               
-                                        }
-                                        .name{
-                                            font-size: 38px;
-                                        }
-                                        .subTitle{
-                                              
-                                        }
-                                        .text{
-                                              margin: 0;padding: 0;display: flex;  
-                                              font-size: 20px;
-                                              width: 380px;
-                                        }
-
-                                }
-                        }
-                        .projects{
-                            margin: 0;
-                            padding: 0;
-                                .cardContainer{
-                                    display: flex;
-                                    flex-direction: column;
-                                        .OneCard{
-                                            width: 300px;
-                                            height: 200px;
-                                                .top{
-                                                        .cardTitle{
-                                                        }
-
-                                                }
-                                                .bottom{
-                                                    .image{
-                                                        margin: 0;
-                                                        padding: 0;
-                                                        width: 300px;
-                                                        height: auto;
-                                                       
-                                                    }
-                                                }
-                                        }
-                                }
-                        }
-                        .skills{
-                               margin: 0;
-                               padding: 0;
-                               width: 400px;
-                               box-shadow: none;
-                               .skill{
-                                margin-left: 40px;
-                                margin: 0;padding: 0;
-
-                                .skillBottom{
-                                    margin: 0;
-                                    padding: 0;
-
-                                }
-                               }
-                        }
-                        .footer{
-                            margin: 0;
-                            padding: 0;
-                            display: flex;
-                            align-items: flex-start;
-                            .footerTop{
-                                
-                                .outerRing{
-                                    width: 40px;
-                                    height: 40px;
-                                    .footerLogo{
-                                        transform: scale(1.3);
-
-                                    }
-                                }
-                            }
-                            .footerCenter{
-                                width: 50%;
-                            }
-                            .footerBottom{
-                                margin: 0;
-                                padding: 0;
-                                width: 350px;
-                                margin-top: 30px;
-                            }
-
-                        }
+              }
+              .bottom {
+                .image {
+                  margin: 0;
+                  padding: 0;
+                  width: 300px;
+                  height: auto;
                 }
+              }
+            }
+          }
         }
-}
+        .skills {
+          margin: 0;
+          padding: 0;
+          width: 400px;
+          box-shadow: none;
+          .skill {
+            margin-left: 40px;
+            margin: 0;
+            padding: 0;
+
+            .skillBottom {
+              margin: 0;
+              padding: 0;
+            }
+          }
+        }
+        .footer {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: flex-start;
+          .footerTop {
+            .outerRing {
+              width: 40px;
+              height: 40px;
+              .footerLogo {
+                transform: scale(1.3);
+              }
+            }
+          }
+          .footerCenter {
+            width: 50%;
+          }
+          .footerBottom {
+            margin: 0;
+            padding: 0;
+            width: 350px;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
 }

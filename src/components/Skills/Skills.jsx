@@ -7,7 +7,7 @@ const Skills = () => {
       <h1 className="skillsTitle">Skills</h1>
       <div className="divSkillContainer">
         {skills.map((skill) => (
-          <Skill skill={skill} key={skill.id}/>
+          <Skill skill={skill} key={skill.id} />
         ))}
       </div>
     </div>

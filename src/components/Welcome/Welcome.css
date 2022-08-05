@@ -43,11 +43,10 @@ h1:hover span {
   color: rgb(15, 4, 4);
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
-.text{
-    font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    margin-left: 50px;
-    color: rgb(144, 0, 79);
-
+.text {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-left: 50px;
+  color: rgb(144, 0, 79);
 }

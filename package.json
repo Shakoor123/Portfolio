@@ -2,7 +2,7 @@
   "name": "portfoli",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Shakoor123.github.io/Portfolio",
+  "homepage": "https://abdulshakoor.tech",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
