@@ -1,7 +1,7 @@
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import DarkModeTwoToneIcon from '@mui/icons-material/DarkModeTwoTone';
 import "./Navbar.css";
-import { useState,useContext } from "react";
+import { useContext } from "react";
 import {AuthContext} from '../../Context/Context'
 const Navbar = () => {
   const {dark,setDark}=useContext(AuthContext)
@@ -22,8 +22,9 @@ const Navbar = () => {
         <div className="right">
         <div className="nightMode">
          
-          
+          <div className="darkOuter">
           {dark?<LightModeOutlinedIcon onClick={changeDark}/>:<DarkModeTwoToneIcon onClick={changeDark} /> }
+          </div>
           </div>
           <div className="buttons">
           

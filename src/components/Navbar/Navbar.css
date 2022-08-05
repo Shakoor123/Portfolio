@@ -78,3 +78,11 @@
     color: #2834fa;
     
 }
+.darkOuter{
+    width: 30px;
+    height: 30px;
+    display: flex;align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}

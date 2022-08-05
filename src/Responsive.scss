@@ -1,6 +1,7 @@
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     .App{
         .navbar{
+            width: 100%;
                 .container{
                         .buttons{
 
@@ -15,7 +16,10 @@
                                 }
                         }
                         .left{
+                            margin: 0;padding: 0;
                                 .logo{
+                                    padding: 0;
+                                    margin-left: 15px;
                                     font-size: 18px;
                                         
                                         .lastName{

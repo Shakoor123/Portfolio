@@ -1,4 +1,8 @@
 import './OneCard.css'
+import emplcement from './emplacement.png'
+import eCommers from './e-commers.jpg'
+import portfolio from './portfolio.png'
+import socialMedia from './social-media.jpg'
 
 const OneCard = ({project}) => {
   return (
@@ -9,7 +13,11 @@ const OneCard = ({project}) => {
         <span className="cardTitle">{project.title}</span>
       </div>
       <div className="bottom">
-      <img src={`/images/${project.img}`} alt="" className="image" />
+        {project.img ===1 && <img src={emplcement} alt="images" className="image" />}
+        {project.img ===2 && <img src={portfolio} alt="images" className="image" />}
+        {project.img ===3 && <img src={socialMedia} alt="images" className="image" />}
+        {project.img ===4 && <img src={eCommers} alt="images" className="image" />}
+      
       </div>
     </div>
   )

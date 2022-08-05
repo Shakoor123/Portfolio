@@ -1,25 +1,26 @@
 export const projects = [
+  
     {
       id: 1,
-      img: "emplacement.png",
+      img: 1,
       title: "EMPLACEMENT",
       link: "https://github.com/Shakoor123/emplacement",
     },
     {
       id: 2,
-      img: "Portfolio.png",
+      img: 2,
       title: "PORTFOLIO",
       link: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     },
     {
       id: 3,
-      img: "social-media.jpg",
+      img: 3,
       title: "SOCIAL-MEDIA",
       link: "https://github.com/Shakoor123/social_media",
     },
     {
         id: 4,
-        img: "e-commers.jpg",
+        img: 4,
         title: "E-COMMERS",
         link: "https://github.com/Shakoor123/E-Commers",
       },
